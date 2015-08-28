@@ -1,0 +1,951 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"float",
+				"float	Arduino float()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wind_pendulum.ino",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 241.0,
+		"last_filter": "theme",
+		"selected_items":
+		[
+			[
+				"theme",
+				"Themr: List themes"
+			],
+			[
+				"inp",
+				"Package Control: Install Package"
+			],
+			[
+				"rep",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"for",
+				"SublimeAStyleFormatter: Format Current File"
+			],
+			[
+				"forma",
+				"SublimeAStyleFormatter: Format Current File"
+			],
+			[
+				"convertt",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"thr",
+				"Themr: Random theme"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/maxz/Workspace/Projects/EDC2015/B_风力摆/wind_pendulum"
+	],
+	"file_history":
+	[
+		"/Users/maxz/Desktop/wind_pendulum.ino",
+		"/Users/maxz/Workspace/Projects/EDC2015/模拟题B_自动聚光装置/Motor_Controller/Motor_Controller.ino",
+		"/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.h",
+		"/Users/maxz/Workspace/Projects/EDC2015/模拟题B_自动聚光装置/LightReceiver/LightReceiver.ino",
+		"/Users/maxz/Desktop/Arduino_Remote/Arduino_Remote.ino",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/examples/reg_read/reg_read.pde",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/examples/ping_server/ping_server.pde",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/MirfHardwareSpi85Driver.h",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/MirfHardwareSpiDriver.h",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/MirfSpiDriver.h",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/Mirf.cpp",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/Mirf.h",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/Mirf_nRF24L01.h",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/multiwii-firmware/types.h",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/multiwii-firmware/MultiWii.cpp",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/multiwii-firmware/config.h",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/multiwii-firmware/def.h",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/multiwii-firmware/Output.cpp",
+		"/Users/maxz/Library/Preferences/com.smileonmymac.textexpander.plist",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/Arduino-Quadcopter/quadcopter/quadcopter.ino",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/Arduino-Quadcopter/test.cpp",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/基于STM32F4的四轴飞行器/STM32F4_QCopter_20130617/Program_Master/QCopter.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/基于STM32F4的四轴飞行器/STM32F4_QCopter_20130617/Program_Slave/QCopter.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/基于STM32F4的四轴飞行器/STM32F4_QCopter_20130617/Program_Algorithm/algorithm_quaternion.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/STC15W4KPWM.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/EEPROM.C",
+		"/Users/maxz/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/maxz/Library/Application Support/Sublime Text 3/Packages/User/CTags.sublime-settings",
+		"/Users/maxz/Library/Application Support/Sublime Text 3/Packages/CTags/CTags.sublime-settings",
+		"/Users/maxz/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/PCB_Quadrotor/4pcb_ARD/pd_digitalIMU/pd_digitalIMU.pde",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/USART.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/Timer.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/STC15W4K60S4.H",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/NRF24L01.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/MPU6050.H",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/MPU-6050.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/IMU.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/EEPROM.H",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/IAP15W4K58S4-小四轴/四轴接收程序2.1/四轴-四元数-互补滤波-串级PID -STCunio的电机和桨/STC四轴正式版程序.C",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Datasheets]/STM32/STM32库开发实战指南/第二部分/第13章/14-野火M3-PWM/USER/pwm_output.h",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Datasheets]/STM32/STM32库开发实战指南/第二部分/第13章/14-野火M3-PWM/USER/pwm_output.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Datasheets]/STM32/STM32库开发实战指南/第二部分/第13章/14-野火M3-PWM/USER/main.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Datasheets]/STM32/STM32库开发实战指南/第二部分/第13章/14-野火M3-PWM/USER/stm32f10x_it.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/[Datasheets]/STM32/STM32库开发实战指南/第二部分/第13章/14-野火M3-PWM/USER/stm32f10x_it.h",
+		"/Users/maxz/Desktop/SPWM/HARDWARE/TIMER/timer.h",
+		"/Users/maxz/Desktop/SPWM/HARDWARE/WDG/wdg.c",
+		"/Users/maxz/Desktop/SPWM/HARDWARE/LED/led.h",
+		"/Users/maxz/Desktop/SPWM/HARDWARE/LED/led.c",
+		"/Users/maxz/Desktop/SPWM/HARDWARE/TIMER/timer.c",
+		"/Users/maxz/Desktop/SPWM/USER/test.c",
+		"/Users/maxz/Desktop/I2C/drivers/GLCD.c",
+		"/Users/maxz/Desktop/I2C/drivers/I2C.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/uart_api.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/stm32f10x_it.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/好用的.bat",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/main.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/i2c_api.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/iwwg.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/gpio_api.c",
+		"/Users/maxz/Desktop/PROJ_GPS_V1.0/USER/src/systick_api.c",
+		"/Users/maxz/Desktop/aq32plus-read-only/src/drv/drv_system.c",
+		"/Users/maxz/Desktop/aq32plus-read-only/src/main.c",
+		"/Users/maxz/Workspace/Projects/EDC2015/QuickRotor/sys/drivers/mpu9250/MPU9250.h",
+		"/private/var/folders/s_/m21x30bd217_bhtgvgx0vfwm0000gn/T/com.soulmen.ulysses3/QuickExport/2015 年全国大学生电子设计竞赛仪器和主要元器件清单/index.html",
+		"/Users/maxz/Downloads/2015仪器清单.txt",
+		"/Applications/Cyberduck.app/Contents/Resources/zh_CN.lproj/License.txt",
+		"/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum/IMU.ino",
+		"/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum/pendulum.ino",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Arduino-PID-Library/examples/PID_RelayOutput/PID_RelayOutput.ino",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Arduino-PID-Library/examples/PID_Basic/PID_Basic.ino",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Arduino-PID-Library/PID_v1.h",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/MPU6050/MPU6050_6Axis_MotionApps20.h",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/Arduino-PID-Library/PID_v1.cpp",
+		"/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum/pid_control.cpp",
+		"/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum/pid_control.h",
+		"/Applications/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_oneStepAtATime/stepper_oneStepAtATime.ino",
+		"/Users/maxz/Workspace/Data/Arduino/libraries/I2Cdev/I2Cdev.h"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"setClockSource",
+			"Init",
+			"PID_CONTROLLER",
+			"PID",
+			"axisPID",
+			"QUADX",
+			"reset ak",
+			"QUADX",
+			"PIDMIX",
+			"QUADX",
+			"zh",
+			"value",
+			"bal_axes",
+			"ESC_TAKEOFF_OFFSET",
+			"init",
+			"SetTunings",
+			"SetOutputLimits",
+			"SetControllerDirection",
+			"REVERSE",
+			"SetControllerDirection",
+			"time",
+			"SampleTime",
+			"SetOutputLimits",
+			"dmpGetYawPitchRoll",
+			"M_PI",
+			"initBalancing",
+			"initRegulators",
+			"initBalancing",
+			"initESCs",
+			"initMPU",
+			"gravity",
+			"ch3",
+			"ch5",
+			"velocity",
+			"count",
+			"gyroBias",
+			"SelfTest",
+			"speed0",
+			"PWM(",
+			"FR1",
+			"Angle",
+			"d1Sum",
+			"d1Average",
+			"ADDRESS",
+			"pressureAltValid",
+			"d1Sum",
+			"d1Average",
+			"pressureAlt",
+			"uint32andUint8_t",
+			"Serial.pr",
+			"timeChange",
+			"DIRECT",
+			"SetControllerDirection",
+			"sample_period"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wind_pendulum.ino",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.1438575339.64625":
+	{
+		"height": 112.0
+	},
+	"output.1438575431.969266":
+	{
+		"height": 118.0
+	},
+	"output.1438575444.952396":
+	{
+		"height": 118.0
+	},
+	"output.1438575489.519873":
+	{
+		"height": 118.0
+	},
+	"output.1438576999.227607":
+	{
+		"height": 118.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439214997.528033":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439215005.815873":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439215567.234661":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439215575.478375":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439215861.829707":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439291001.509238":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292143.960099":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292165.65017":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292193.175":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292212.118618":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292237.951315":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292256.040984":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Desktop/Arduino_Remote|1439292292.475143":
+	{
+		"height": 120.0
+	},
+	"output.build|/Users/maxz/Workspace/Data/Arduino/libraries/Arduino-PID-Library/examples/PID_Basic|1438656048.150923":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438575387.245328":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438575448.933265":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438575500.62436":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438576292.183905":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577016.708264":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577272.998801":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438579904.898034":
+	{
+		"height": 116.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438580244.609319":
+	{
+		"height": 116.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438580298.957017":
+	{
+		"height": 116.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656018.182796":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656083.977582":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656105.573176":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656112.328847":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438664786.25451":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438664802.769194":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438664815.225532":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438664822.819541":
+	{
+		"height": 118.0
+	},
+	"output.build|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690483.713977":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439215586.487569":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439215629.532702":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439215825.721018":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439215873.639182":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439216137.118191":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439216506.919503":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439258783.082096":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439259270.465913":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439259377.040218":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439259477.822594":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439260408.180425":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439287348.784186":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439290129.694696":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439290145.416493":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439290446.436448":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439290471.268476":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439290506.097252":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291012.750558":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291315.772449":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291329.804476":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291405.878337":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291595.197412":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291865.186597":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439291883.790513":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439292029.007093":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439292048.96521":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439292095.151492":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439292301.618548":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Desktop/Arduino_Remote|1439292365.663442":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Data/Arduino/libraries/MPU6050|1438577407.712273":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/examples/reg_read|1439258556.726363":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Data/Arduino/libraries/Mirf/examples/reg_read|1439258582.791113":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577029.958812":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577079.709586":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577149.246529":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577280.717017":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577414.514927":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577433.663303":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577556.67494":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577625.450266":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577875.656999":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438577921.598736":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578086.329759":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578132.609047":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578190.587568":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578209.172734":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578317.795436":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578464.203467":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578510.084418":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438578572.071312":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581127.43566":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581303.762388":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581360.031132":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581444.942839":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581453.322252":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581475.637872":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438581557.073015":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438584917.951792":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438585019.689501":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438585249.014805":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438585332.649585":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438591575.549274":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438591630.383419":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438591720.283532":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438594454.735533":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438594504.784994":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438594664.457777":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438595225.387406":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656148.786237":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656229.828244":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656277.219544":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656337.178618":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656440.734045":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656474.506274":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656561.7278":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656776.966837":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438656807.400614":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438657050.940111":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438657127.614051":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438657180.839199":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438657207.113636":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690441.658879":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690465.727753":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690491.772395":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690511.354119":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690526.75082":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690562.254852":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690610.725975":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690693.470273":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690768.686278":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690869.526526":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438690900.026509":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438691031.185693":
+	{
+		"height": 118.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438695134.978848":
+	{
+		"height": 116.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438695972.486353":
+	{
+		"height": 116.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438696194.955111":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438696200.567108":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438696271.739394":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438696276.133777":
+	{
+		"height": 120.0
+	},
+	"output.upload|/Users/maxz/Workspace/Projects/EDC2015/倒立摆/pendulum|1438696317.521072":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "wind_pendulum.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

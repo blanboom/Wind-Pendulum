@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/maxz/Workspace/Data/Arduino/libraries/MPU6050"
+		},
+		{
+			"path": "/Users/maxz/Workspace/Data/Arduino/libraries/PID_float"
+		},
+		{
+			"path": "/Users/maxz/Workspace/Projects/EDC2015/[Documents]/四旋翼资料整理/Arduino-Quadcopter"
+		},
+		{
+			"path": "/Users/maxz/Workspace/Data/Arduino/libraries/Adafruit-GFX-Library-master"
+		},
+		{
+			"path": "/Users/maxz/Workspace/Data/Arduino/libraries/Adafruit_SSD1306-master"
+		}
+	]
+}
