@@ -2,8 +2,8 @@
  * 公式：
  *		theta = atan(sqrt(pow(tan(ypr[1]), 2.0) + pow(tan(ypr[2]), 2.0))) * 180/M_PI
  *		phi   = acos(tan(ypr[2]) / (sqrt(pow(tan(ypr[1]), 2.0) + pow(tan(ypr[2]), 2.0)))) * 180/M_PI  (需判断正负，进行修正)
- *		roll? = atan(tan(theta) * cos(phi))
- *		pitch?= atan(tan(theta) * sin(phi))
+ *		roll  = atan(tan(theta) * cos(phi))
+ *		pitch = atan(tan(theta) * sin(phi))
  *****************************************************************/
 
 #include "IMU.h"
@@ -163,92 +163,19 @@ void app_mode3(void) {
 
 	if(angle_input == 120) { angle_input = 130; }
 
-	// switch(angle_input) {
-	// 	case 0:
-	// 		angle_input = 180;
-	// 		break;
-	// 	case 10:
-	// 		angle_input = 0;
-	// 		break;
-	// 	case 20:
-	// 		angle_input = 0;
-	// 		break;
-	// 	case 30:
-	// 		angle_input = 10;
-	// 		break;
-	// 	case 40:
-	// 		angle_input = 15;
-	// 		break;
-	// 	case 50:
-	// 		angle_input = 20;
-	// 		break;
-	// 	case 60:
-	// 		angle_input = 30;
-	// 		break;
-	// 	case 70:
-	// 		angle_input = 40;
-	// 		break;
-	// 	case 80:
-	// 		angle_input = 50;
-	// 		break;
-	// 	case 90:
-	// 		angle_input = 90;
-	// 		break;
-	// 	case 100:
-	// 		angle_input = 120;
-	// 		break;
-	// 	case 110:
-	// 		angle_input = 130;
-	// 		break;
-	// 	case 120:
-	// 		angle_input = 150;
-	// 		break;
-	// 	case 130:
-	// 		angle_input = 152;
-	// 		break;
-	// 	case 140:
-	// 		angle_input = 154;
-	// 		break;
-	// 	case 150:
-	// 		angle_input = 156;
-	// 		break;
-	// 	case 160:
-	// 		angle_input = 158;
-	// 		break;
-	// 	case 170:
-	// 		angle_input = 160;
-	// 		break;
-	// 	case 180:
-	// 		angle_input = 180;
-	// 		break;
-	// 	default:
-	// 		angle_input = 90;
-	// 		break;
-	// }
-
 	motor_val1 = 120 * sin(angle_input * M_PI / 180);
 	motor_val2 = 120 * cos(angle_input * M_PI / 180);
 
 	beep();
 	for(;;) {
 		getMotion6_NoDMP();
-		// if(angle_input <= 90) {
-			if (gx > 0) {
-				motorOutput13(motor_val1);
-				motorOutput24(motor_val2);
-			} else {
-				motorOutput13(-motor_val1);
-				motorOutput24(-motor_val2);
-			}			
-		// } else {
-		// 	if (gx > 0) {
-		// 		motorOutput13(motor_val1);
-		// 		motorOutput24(-motor_val2);
-		// 	} else {
-		// 		motorOutput13(-motor_val1);
-		// 		motorOutput24(motor_val2);
-		// 	}	
-		// }
+		if (gx > 0) {
+			motorOutput13(motor_val1);
+			motorOutput24(motor_val2);
+		} else {
+			motorOutput13(-motor_val1);
+			motorOutput24(-motor_val2);
+		}			
 
 	}
 }
